@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <h1>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
+ <form action="results.html" method="get">
+ <div>
+    <fieldset>
+        <legend>Sözleşme onay</legend>
+        <input type="checkbox" name="Formu kaydetti" id="onay">
+        <label for="onay">Aşağıdaki Bilgilerin doğruluğunu kabul ediyorum ve sözleşmesini onaylıyorum.</label>
+        <br>
+        <input type="submit" value="Formu kaydet">
+        <input type="reset" value="Formu temizle" >
+    </fieldset>
+ </div> 
+ 
+ <div>
+    <fieldset>
+        <legend>Kişisel Bilgiler</legend>
+        <label for="kvk" class="kisisel">Form Güvenlik ID</label>
+        <input type="text" name="ID_Girildi" placeholder="Güvenlik idnizi giriniz..." id="kvk">
+        <br><br>
+         <label for="name" class="kisisel">Ad</label>
+         <input type="text" name="Girilen_Ad" id="name">
+         <br><br>
+         <label for="sname" class="kisisel">Soyad</label>
+         <input type="text" name="Girilen_Ad" id="sname">
+         <br><br>
+         <label for="age" class="kisisel">Yaş</label>
+         <input type="number" name="Girilen_Yas" id="age">
+         <br><br>
+         <label for="mail" class="kisisel">Mail Adresi</label>
+        <input type="email" name="Girilen_Mail" id="mail">
+        <br><br>
+        <label for="photo" class="kisisel">Fotoğraf Ekle</label>
+        <input type="file" name="Eklenilen_Fotograf" id="photo">
+    </fieldset>
+ </div>
+<div>
+    <fieldset>
+        <legend>Diğer Bilgiler</legend>
+        <h4>Buradaki alanlar Mesleki Deneyimi Kapsar</h3>
+            <label for="date" id="date2" >Sektöre Giris Tarihi</label>
+            <input class="date2" type="date" name="Secilen_Tarih" id="date">
+            <br><br>
+            
+             <p id="p">Sektör Deneyimi</p>
+                  
+             <input type="radio" name="Deneyim" id="Experience" class="Ex">
+             <label for="Experience" class="Ex1">1-5 Yıl</label>
+             <br>
+             <input type="radio" name="Deneyim" id="Experience" class="Ex">
+             <label for="Experience"  class="Ex1">6-10 Yıl</label>
+             <br>
+             <input type="radio" name="Deneyim" id="Experience" class="Ex">
+             <label for="Experience"  class="Ex1">11-15 Yıl</label>
+             <br>
+             <input type="radio" name="Deneyim" id="Experience" class="Ex">
+             <label for="Experience"  class="Ex1">15-Üzeri</label>
+             
+             <br><br>
+            
+             <label class="baslık" for="">Programa Dilleri</label>
+
+             <select class="program" name="Seçilen Program" id="seker" size="5" multiple>
+                <option value="C#">C#</option>
+                <option value="PHP">PHP</option>
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="PHP">PHP</option>
+                <option value="HTML5">HTML5</option>
+
+            </select>
+
+
+
+    </fieldset>
+</div>
+
+<div> 
+    <fieldset>
+        <legend>Sözleşme Kopyası</legend>
+
+        <label for="yorum"></label>
+        <br>
+        <textarea name="Sözlesme_Detay" id="yorum" cols="50" rows="10"  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae cumque ab sequi repellendus ea et, alias temporibus recusandae sapiente veniam veritatis doloribus non quidem iusto, quibusdam molestias nisi sed.</textarea>
+    </fieldset>
+
+
+</div>
+
+<div>
+    <fieldset>
+        <legend>Mail Listesi</legend>
+
+        <label for="mail2">Mail Listesine Katılmak <span id="span1">istiyorum</span></label>
+        <input type="checkbox" name="Istiyorum" id="mail2">
+        <br>
+        <label for="mail2">Mail Listesine Katılmak  <span id="span2">istemiyorum</span></label>
+        <input type="checkbox" name="Istemiyorum" id="mail2">
+
+
+
+
+
+
+    </fieldset>
+</div>
+</form>
+
+
+    
+</body>
+</html>

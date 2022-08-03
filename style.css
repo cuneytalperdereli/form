@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+
+#span1{
+    font-weight: bold;
+
+}
+
+#span2{
+        text-decoration: underline;
+        font-weight: bold;
+}
+.kisisel{
+    display: inline-block;
+    width: 120px;
+
+}
+h4{
+   padding-left: 50px;
+}
+
+.date2{
+    margin-left: 100px;
+}
+.Ex{
+    margin-left: 250px;
+    display: inline-block;
+    
+    
+}
+
+body{
+    padding-left: 100px;
+    padding-right: 100px    ;
+}
+.program{
+    margin-left: 135px;
+}
+.baslık{
+     width: auto;
+}
